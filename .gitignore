@@ -1,0 +1,27 @@
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# محررات النصوص
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js (إذا استخدمت npm في المستقبل)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# الملفات المؤقتة
+*.tmp
+*.bak
+*.log
+
+# الملفات الشخصية
+.env
+.env.local
+secrets.json

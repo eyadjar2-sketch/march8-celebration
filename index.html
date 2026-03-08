@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С праздником! 8 Марта</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- الصفحة الأولى: التحية -->
+    <div id="page1" class="page active">
+        <div class="confetti" id="confetti"></div>
+        
+        <div class="page1-content">
+            <h1 class="main-title">С праздником</h1>
+            <p class="subtitle">8 марта</p>
+            
+            <!-- الزر: باقة الورد -->
+            <button id="flowerBtn" class="flower-button">
+                <img src="flowers.png" alt="باقة ورد" class="flower-image">
+            </button>
+            
+            <p class="hint">click on the flower</p>
+        </div>
+    </div>
+
+    <!-- الصفحة الثانية: الرسالة والورد المتحرك -->
+    <div id="page2" class="page">
+        <div class="page2-content">
+            <p class="message" id="message">
+Дорогая ! В этот день, когда всё вокруг расцветает, хочется пожелать тебе создавать не только красоту в букетах, но и счастье в своей жизни.
+Желаю тебе бесконечного
+ вдохновения, нежности и самых тёплых улыбок. 
+С 8 Марта🥰🎀            </p>
+            
+            <div class="floating-flower">
+                <img src="givingflower.gif" alt="هدية الورد المتحركة" class="gift-gif">
+            </div>
+            
+            <button id="backBtn" class="back-button">Back</button>
+        </div>
+    </div>
+
+    <!-- الموسيقى الخلفية -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="themusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
